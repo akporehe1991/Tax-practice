@@ -1,0 +1,26 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication6;
+
+/**
+ *
+ * @author c0648185
+ */
+public class JavaApplication6 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        double price = 132.85;
+    double tax = 132.58*13/100;
+    double total = price + tax;
+        System.out.println("price is =" +price);
+        System.out.println("tax is=" +tax);
+        System.out.println("total is" +total);
+    }
+    
+}
